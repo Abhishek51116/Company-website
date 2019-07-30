@@ -1,0 +1,23 @@
+/* Style body by adding background image and set it to cover, add font family*/
+body{
+    font-family: arvo, serif;
+    background: url(https://freenaturestock.s3.us-east-1.amazonaws.com/232.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+/* Style Brand*/
+.logo{
+    height: 30px;
+}
+/*style navigation bar*/
+
+/*style jumbotron*/
+
+/*limit width of icon section*/
+
+/* style icons section using bootstrap*/
+
+/* style Contact button*/
+
+/*style footer*/
+
+/*use media queries to change icon size in small devices*/
