@@ -9,15 +9,91 @@ body{
     height: 30px;
 }
 /*style navigation bar*/
-
+.navbar-inverse{
+    opacity: 0.5;
+}
+.nav li{
+    color: #fff;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+.nav li:hover{
+    border-bottom: 2px solid blue;
+    padding-bottom: 8px;
+    
+}
 /*style jumbotron*/
+.jumbotron{
+    color: #fff;
+    background-color: transparent;
+    text-align: center;
+}
 
 /*limit width of icon section*/
-
-/* style icons section using bootstrap*/
+.container{
+    max-width: 10000px;
+}
 
 /* style Contact button*/
-
-/*style footer*/
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.btn{
+background: rgba(0,255,184,0.5);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+.btn:hover{
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    border: none;
+}
 
 /*use media queries to change icon size in small devices*/
+
+
+.header {
+    color: white;
+}
+
+
+
+#jumbo {
+    background-color: transparent;
+    font-size: 60px;
+    margin: 0;
+    padding: 10;
+    letter-spacing: 2.5px;
+}
+
+.body-image {
+    height: 100px;
+}
+
+.col-md-4 {
+    text-align: center;
+    color: aliceblue;
+}
+
+.icons {
+    font-size: 15px;
+}
+
+.footer {
+    background-color: rgba(0,0,0,0.5);
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+}
+@media (max-width : 768px){
+    .body-image{
+        height: 70px;
+    }
+}
